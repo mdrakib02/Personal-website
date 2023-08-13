@@ -40,7 +40,7 @@ header {
     margin-bottom: 50px;
 }
 
-.header-section button {
+.primary-btn{
     font-size: 20px;
     font-weight: 700;
     color: #005FAC;
@@ -77,4 +77,107 @@ header {
 .about-section li{
     list-style: none;margin-top: 8px;
     color: rgb(60, 59, 59);
+}
+/* styles my plan section */
+.My-plan .plan-title{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 130px;
+    
+}
+.plan-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.plan-section h3{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Work Sans;
+    margin: 8px 0px;
+}
+.plan-section p{
+    font-size: 20px;
+    color: rgb(60, 59, 59);
+    font-family: work sans;
+    margin-bottom: 130px;
+}
+
+.contact-section{
+    background-image:linear-gradient(to left,transparent, rgb(5, 87, 194)), url(/images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 130px;
+}
+.contact-section h3{
+    font-size: 50px;
+    font-weight: 600;
+    width: 555px;
+    color: aliceblue;
+    padding-left: 40px;
+    padding-top: 30px;
+    
+}
+.contact-btn{
+    font-size: 20px;
+    font-weight: 700;
+    color: #005FAC;
+    padding: 17px 25px;
+    border-radius: 5px;
+    border: 0px;
+    margin-left: 40px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+
+}
+/* styles footer section  */
+footer{
+    background: var(--dark-01, #151414);
+    height: 600px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 800px;
+}
+.footer-section{
+    
+    margin-top: 130px;
+}
+.footer-section h3{
+    font-size: 45px;
+    font-weight: 600px;
+    font-family: sans-serif;
+    color: aliceblue;
+    margin-bottom: 40px;
+}
+.footer-section p{
+    font-size: 18px;
+    color: aliceblue;
+    word-spacing: 5px;
+    margin-bottom: 8px;
+}
+.footer-section input{
+   padding: 18px;
+   border-radius: 8px;
+   border: 0px;
+   margin-top: 15px;
+   margin-bottom: 15px;
+}
+.subscribe-btn{
+    font-size: 20px;
+    font-weight: 700;
+   background-color: #005FAC;
+    padding: 17px 25px;
+    border-radius: 5px;
+    border: 0px;
+    color: aliceblue;
+}
+.social-content img{
+    margin-right: 8px;
+    margin-top: 30px;
 }
