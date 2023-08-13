@@ -1,0 +1,80 @@
+* {
+    margin: 0%;
+}
+
+header {
+    background-image: url(/images/banner/banner3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 0px;
+    height: 809px;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+
+.header-section {
+    padding-top: 200px;
+
+    text-align: right;
+    padding-left: 900px;
+}
+
+.header-section h3 {
+    font-size: 64px;
+    font-weight: 700px;
+    font-style: normal;
+    font-family: Work Sans;
+    color: aliceblue;
+}
+
+.header-section p {
+    color: aliceblue;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.header-section button {
+    font-size: 20px;
+    font-weight: 700;
+    color: #005FAC;
+    padding: 17px 25px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+/* styles about section */
+.about-section {
+    display: flex;
+    text-align: initial;
+    align-items: center;
+    margin-top: 200px;
+    gap: 400px;
+}
+
+.about-section img {
+    width: 551px;
+    height: 750px;
+    flex-shrink: 0;
+}
+.about-section h3{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Work Sans;
+    margin-bottom: 20px;
+}
+.about-section p{
+    font-size: 18px;
+    color: rgb(60, 59, 59);
+    margin-bottom: 15px;
+}
+.about-section li{
+    list-style: none;margin-top: 8px;
+    color: rgb(60, 59, 59);
+}
