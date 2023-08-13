@@ -3,7 +3,7 @@
 }
 
 header {
-    background-image: url(./images/banner/banner3.png);
+    background-image: url('../images/banner/banner3.png');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -107,7 +107,7 @@ header {
 }
 
 .contact-section{
-    background-image:linear-gradient(to left,transparent, rgb(5, 87, 194)), url(./images/watch.png);
+    background-image:linear-gradient(to left,transparent, rgb(5, 87, 194)), url('../images/watch.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
